@@ -1,0 +1,9 @@
+40
+教师公寓 info0 东门 info1 游泳馆 info2 体育场 info3 出版社 info4
+科研楼 info5 食1  info6 篮球场 info7 会堂 info8 通信楼 info9
+宿1 info10 食2 info11 图书馆   信息一，信息二。信息三。 教1 info13 教2 info14
+经管楼 info15 学活  info16 松林 info17 办1 info18 喷泉  info19
+北门 info20 宿2 info21 食3 info22 宿3 info23 宿4  info24
+宿5 info25 教4 info26 广场1 info27 教3 info28 医 info29
+宿6 info30 广场2 info31 商1 info32 生活服务中心 info33  商2 info34
+科技楼 info35 宿7  info36 邮局 info37 西门 info38 停车坪 info39

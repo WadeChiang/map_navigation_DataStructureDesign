@@ -1,0 +1,498 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1542</width>
+    <height>821</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>校园导航</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QComboBox" name="start_combo_box">
+    <property name="geometry">
+     <rect>
+      <x>1260</x>
+      <y>110</y>
+      <width>87</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="sizeAdjustPolicy">
+     <enum>QComboBox::AdjustToContents</enum>
+    </property>
+   </widget>
+   <widget class="QComboBox" name="end_combo_box">
+    <property name="geometry">
+     <rect>
+      <x>1260</x>
+      <y>180</y>
+      <width>90</width>
+      <height>20</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>1170</x>
+      <y>70</y>
+      <width>91</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Arial</family>
+      <pointsize>12</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>起始地点</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>1170</x>
+      <y>150</y>
+      <width>71</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Arial</family>
+      <pointsize>12</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>目的地</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_3">
+    <property name="geometry">
+     <rect>
+      <x>1170</x>
+      <y>30</y>
+      <width>91</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Arial</family>
+      <pointsize>12</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>导航策略</string>
+    </property>
+   </widget>
+   <widget class="QComboBox" name="navitype_combo_box">
+    <property name="geometry">
+     <rect>
+      <x>1260</x>
+      <y>40</y>
+      <width>91</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <item>
+     <property name="text">
+      <string>普通导航</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>使用自行车</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>途径地点</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>考虑拥挤度</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QPushButton" name="navi_button">
+    <property name="geometry">
+     <rect>
+      <x>1400</x>
+      <y>40</y>
+      <width>93</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>开始导航</string>
+    </property>
+   </widget>
+   <widget class="Line" name="line">
+    <property name="geometry">
+     <rect>
+      <x>1150</x>
+      <y>0</y>
+      <width>20</width>
+      <height>881</height>
+     </rect>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Vertical</enum>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_4">
+    <property name="geometry">
+     <rect>
+      <x>1290</x>
+      <y>0</y>
+      <width>91</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Arial</family>
+      <pointsize>12</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>导航</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_5">
+    <property name="geometry">
+     <rect>
+      <x>1250</x>
+      <y>390</y>
+      <width>141</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Arial</family>
+      <pointsize>12</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>查询逻辑位置</string>
+    </property>
+   </widget>
+   <widget class="QComboBox" name="class_combo_box">
+    <property name="geometry">
+     <rect>
+      <x>1310</x>
+      <y>450</y>
+      <width>91</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <item>
+     <property name="text">
+      <string>2019211318</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QLabel" name="label_6">
+    <property name="geometry">
+     <rect>
+      <x>1160</x>
+      <y>210</y>
+      <width>91</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Arial</family>
+      <pointsize>12</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>途径地点</string>
+    </property>
+   </widget>
+   <widget class="QComboBox" name="mid_combo_box">
+    <property name="geometry">
+     <rect>
+      <x>1260</x>
+      <y>240</y>
+      <width>87</width>
+      <height>22</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="simu_button">
+    <property name="geometry">
+     <rect>
+      <x>1400</x>
+      <y>120</y>
+      <width>93</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>开始模拟</string>
+    </property>
+   </widget>
+   <widget class="QComboBox" name="sc_combo_box">
+    <property name="geometry">
+     <rect>
+      <x>1260</x>
+      <y>80</y>
+      <width>91</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <item>
+     <property name="text">
+      <string>校区A</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>校区B</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QComboBox" name="ec_combo_box">
+    <property name="geometry">
+     <rect>
+      <x>1260</x>
+      <y>150</y>
+      <width>91</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <item>
+     <property name="text">
+      <string>校区A</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>校区B</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QComboBox" name="mc_combo_box">
+    <property name="geometry">
+     <rect>
+      <x>1260</x>
+      <y>210</y>
+      <width>91</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <item>
+     <property name="text">
+      <string>校区A</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>校区B</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QLabel" name="time_label">
+    <property name="geometry">
+     <rect>
+      <x>1040</x>
+      <y>10</y>
+      <width>91</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Arial</family>
+      <pointsize>12</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_7">
+    <property name="geometry">
+     <rect>
+      <x>1270</x>
+      <y>270</y>
+      <width>61</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Arial</family>
+      <pointsize>12</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>查周边</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="around_button">
+    <property name="geometry">
+     <rect>
+      <x>1260</x>
+      <y>310</y>
+      <width>93</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>查询</string>
+    </property>
+   </widget>
+   <widget class="QComboBox" name="course_combo_box_2">
+    <property name="geometry">
+     <rect>
+      <x>1310</x>
+      <y>480</y>
+      <width>91</width>
+      <height>22</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QComboBox" name="course_combo_box_3">
+    <property name="geometry">
+     <rect>
+      <x>1310</x>
+      <y>510</y>
+      <width>91</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <item>
+     <property name="text">
+      <string>空</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>周一</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>周二</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>周三</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>周四</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>周五</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QLabel" name="label_8">
+    <property name="geometry">
+     <rect>
+      <x>1180</x>
+      <y>430</y>
+      <width>141</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Arial</family>
+      <pointsize>12</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>由课程表查询</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="timetable_button">
+    <property name="geometry">
+     <rect>
+      <x>1420</x>
+      <y>450</y>
+      <width>93</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>查询</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_9">
+    <property name="geometry">
+     <rect>
+      <x>1180</x>
+      <y>560</y>
+      <width>111</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Arial</family>
+      <pointsize>12</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>由功能查询</string>
+    </property>
+   </widget>
+   <widget class="QComboBox" name="fn_combo_box">
+    <property name="geometry">
+     <rect>
+      <x>1310</x>
+      <y>570</y>
+      <width>91</width>
+      <height>22</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="func_button">
+    <property name="geometry">
+     <rect>
+      <x>1420</x>
+      <y>570</y>
+      <width>93</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>查询</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1542</width>
+     <height>26</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
