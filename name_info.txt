@@ -1,9 +1,9 @@
 40
-办1 info0   办2     info1   东门    info2   教1 info3   实1 info4
-办3 info5   图      info6   餐厅    info7   教2 info8   实2 info9
-医  info10  学活    info11  邮      info12  教3 info13  实3 info14
-食1 info15  食2     info16  生1     info17  教4 info18  食3  info19
-宿1 info20  宿2     info21  生2     info22  宿3 info23  宿4  info24
-运1 info25  运2     info26  甲子钟  info27  信1 info28  商1 info29
-运3 info30  运4     info31  校车    info32  信2 info33  商2 info34
-递1 info35  递2     info36  西门    info37  信3 info38  递3 info39
+办公1 info0   办公2     info1   东门    info2   教学1 info3   实验1 info4
+办公3 info5   图      info6   餐厅    info7   教学2 info8   实验2 info9
+医  info10  学活    info11  邮      info12  教学3 info13  实验3 info14
+食堂1 info15  食堂2     info16  生1     info17  教学4 info18  食堂3  info19
+宿舍1 info20  宿舍2     info21  生2     info22  宿舍3 info23  宿舍4  info24
+田径场1 info25  田径场2     info26  甲子钟  info27  信1 info28  商店1 info29
+田径场3 info30  田径场4     info31  校车    info32  信2 info33  商店2 info34
+快递1 info35  快递2     info36  西门    info37  信3 info38  递3 info39
